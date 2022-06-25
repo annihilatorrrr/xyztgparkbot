@@ -22,7 +22,6 @@ const handleUpdate = webhookCallback(bot, "std/http");
 bot2.api.config.use(apiThrottler());
 const handleUpdate2 = webhookCallback(bot2, "std/http");
 bot3.api.config.use(apiThrottler());
-bot3.api.setWebhook(URI + TOKEN3).then(r => console.log(r));
 const handleUpdate3 = webhookCallback(bot3, "std/http");
 bot4.api.config.use(apiThrottler());
 bot4.api.setWebhook(URI + TOKEN4).then(r => console.log(r));
