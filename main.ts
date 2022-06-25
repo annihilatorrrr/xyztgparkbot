@@ -128,6 +128,6 @@ serve({
         return new Response();
     },
     "/": () => {
-        return new Response("Ok!");
+        return new Response("Ok!\n@Memers_Gallery!");
     },
 });
