@@ -145,7 +145,7 @@ serve({
         }
         return new Response();
     },
-    ["/" + TOKEN5: async (req) => {
+    ["/" + TOKEN5]: async (req) => {
         if (req.method == "POST") {
             try {
                 return await handleUpdate5(req);
