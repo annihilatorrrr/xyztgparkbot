@@ -5,7 +5,7 @@ import {
     GrammyError,
     HttpError,
     webhookCallback,
-} from "https://deno.land/x/grammy@v1.10.0/mod.ts";
+} from "https://deno.land/x/grammy@v1.11.0/mod.ts";
 import { apiThrottler } from "https://deno.land/x/grammy_transformer_throttler@v1.1.2/mod.ts";
 
 const TOKEN = String(Deno.env.get("TOKEN"));
