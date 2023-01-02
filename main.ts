@@ -1,12 +1,12 @@
 import "https://deno.land/x/dotenv@v3.2.0/load.ts";
-import { serve } from "https://deno.land/x/sift@0.5.0/mod.ts";
+import { serve } from "https://deno.land/x/sift@0.6.0/mod.ts";
 import {
     Bot,
     GrammyError,
     HttpError,
     webhookCallback,
-} from "https://deno.land/x/grammy@v1.11.1/mod.ts";
-import { apiThrottler } from "https://deno.land/x/grammy_transformer_throttler@v1.1.2/mod.ts";
+} from "https://deno.land/x/grammy@v1.13.0/mod.ts";
+import { apiThrottler } from "https://deno.land/x/grammy_transformer_throttler@v1.2.1/mod.ts";
 
 const TOKEN = String(Deno.env.get("TOKEN"));
 const TOKEN2 = String(Deno.env.get("TOKEN2"));
