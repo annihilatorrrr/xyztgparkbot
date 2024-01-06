@@ -36,6 +36,7 @@ bot5.api.setWebhook(URI + TOKEN5).then(r => console.log(r));
 const handleUpdate5 = webhookCallback(bot5, "std/http");
 const stm = "Here's a full featured channel management bot for you @Sagiribot; use it!"
 
+console.log(TOKEN, TOKEN2, TOKEN3, TOKEN4, TOKEN5)
 bot.on("message", async (ctx) => {
     return await ctx.reply(stm)
 });
